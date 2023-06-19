@@ -83,3 +83,16 @@ function selectionSort(arr) {
 }
 
 console.log(selectionSort([29, 72, 98, 13, 87, 66, 52, 51, 36]));
+
+
+function LinearSearch(t,A)
+    {
+        let n = A.length, i = 0;
+
+        A[n] = t;
+
+        while (A[ i ] !== t) i++;
+
+        if (i < n) return i;
+        else return -1;
+    }
