@@ -217,8 +217,8 @@ function bubbleSort(arr){
                 [arr[j + 1],arr[j]] = [arr[j],arr[j + 1]]
             }
         }
-    };
+    }
     return arr;
-};
+}
 
 console.log(bubbleSort([5,3,8,4,6,-1]));
